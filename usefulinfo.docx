@@ -1,0 +1,15 @@
+border is not part of padding or margin
+block elements: take ALL width(p, h1 etc, div, lists, forms)-> if you need to change something in the middle of a p, for example, you have to use SPAN because is an inline display element
+inline elements: span, img, a -> CAN'T CHANGE WIDTH OF INLINE ELEMENTS
+inline block: I can CHANGE WIDTH & HAVE MULTIPLE ELEMENTS ON THE SAME LINE
+none: removes element from website
+visibility: hidden removes element too, but KEEPS THE EMPTY SPACE, it doesn't overwrite it
+Children are on top of parent element
+Elements are position: static by default
+Position: relative -> move stuff around with top, bottom, left, right-> it's like adding a margin -> relative to what the element would've been based on the html flow
+Position: absolute -> positioning element relative to its parent -> it affects position of other elements
+Centering: text-align(only elements that don't have a width set) or margin:auto
+
+If you put percentage to font size it adapts to user's zoom-> for h1 16px is 100% -> 1em = 16px
+REM is BETTER than EM -> not influenced by upstream size changes
+Clear is the anti-float, prevents wrapping -> Use float ONLY TO WRAP TEXT AROUND AN IMAGE
